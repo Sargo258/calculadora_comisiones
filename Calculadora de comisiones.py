@@ -1,5 +1,5 @@
 nombre = input("ingresa tu nombre ")
 ventas_mes = input("ingresa el numero de ventas realizadas por ti este mes : ")
 ventas = int(ventas_mes)
-comision = ventas*13/100
-print(f"tu nombre es: {nombre} y en el mesa has realizado: {ventas_mes} ventas, tu comision sera de {round(comision,2)}")
+comision = ventas * 13 / 100
+print(f"tu nombre es: {nombre} y en el mesa has realizado: {ventas_mes} ventas, tu comision sera de ${round(comision,2)}")
